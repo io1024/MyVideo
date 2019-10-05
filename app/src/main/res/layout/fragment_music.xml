@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<ListView-->
+    <!--android:id="@+id/listMusic"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+    <!--android:foreground="?android:attr/actionBarItemBackground"-->
+    <!--android:foreground="?android:actionBarItemBackground"-->
+    <!--android:foreground="?android:attr/selectableItemBackground"-->
+    <!--android:foreground="?android:selectableItemBackground"-->
+
+    <TextView
+        android:id="@+id/tvNet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#66000000"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:text="大阅兵(隐式开启)"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#66000000"
+        android:foreground="?android:selectableItemBackground"
+        android:padding="8dp"
+        android:text="哪吒"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvNet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#66000000"
+        android:foreground="?android:actionBarItemBackground"
+        android:padding="8dp"
+        android:text="歌曲(显示意图)"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
